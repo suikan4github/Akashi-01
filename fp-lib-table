@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Display_Modules)(type KiCad)(uri /home/takemasa/shared_foo/kicad/github/Suikan-KiCad-Libraries/Footprints/Display_Modules.pretty)(options "")(descr ""))
+)
