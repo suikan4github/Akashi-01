@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber"))
   )
 
   (net 0 "")
@@ -1427,8 +1427,8 @@
     (arrow2a (pts (xy 115.57 119.38) (xy 116.696504 119.966421)))
     (arrow2b (pts (xy 115.57 119.38) (xy 116.696504 118.793579)))
   )
-  (dimension 63.5 (width 0.12) (layer F.SilkS) (tstamp 5C97C950)
-    (gr_text "63.500 mm" (at 151.13 115.57) (layer F.SilkS) (tstamp 5C97C950)
+  (dimension 63.5 (width 0.12) (layer Dwgs.User) (tstamp 5C97C950)
+    (gr_text "63.500 mm" (at 151.13 115.57) (layer Dwgs.User) (tstamp 5C97C950)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 182.88 104.14) (xy 182.88 114.886421)))
@@ -1680,7 +1680,7 @@
   (segment (start 121.92 76.2) (end 121.92 75.0247) (width 0.25) (layer F.Cu) (net 25))
   (via (at 145.7384 53.3112) (size 0.8) (layers F.Cu B.Cu) (net 25))
 
-  (zone (net 8) (net_name GND) (layer B.Cu) (tstamp 5C9BD83F) (hatch edge 0.508)
+  (zone (net 8) (net_name GND) (layer B.Cu) (tstamp 5C9E91EB) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
