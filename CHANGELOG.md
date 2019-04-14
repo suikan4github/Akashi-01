@@ -16,10 +16,13 @@ Record of the modification in project development.
 ### Added
 ### Changed
 - [Issue 2 : Copyright is too small ](https://github.com/suikan4github/Akashi-01/issues/2)
+
 ### Deprecated
 ### Removed
 ### Fixed
 - [Issue 1 : Test point hole is too small  ](https://github.com/suikan4github/Akashi-01/issues/1)
+- [Issue 3 : Update frootprint of the serial display ](https://github.com/suikan4github/Akashi-01/issues/3)
+
 ### Security
 ### Known Issue
 
