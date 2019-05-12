@@ -10,6 +10,18 @@ Record of the modification in project development.
 ### Security
 ### Known Issue
 
+## [1.0.2]
+
+### Added
+### Changed
+### Deprecated
+### Removed
+### Fixed
+- [Issue 4 : schematic with wrong pin assign Serial 7 segment display. ](https://github.com/suikan4github/Akashi-01/issues/4)
+
+### Security
+### Known Issue
+
 
 ## [1.0.1] - 2019-04-14
 
