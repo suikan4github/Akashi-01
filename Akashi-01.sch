@@ -21,7 +21,7 @@ P 5700 3450
 F 0 "CN7" H 5750 4567 50  0000 C CNN
 F 1 "PPPC192LFBN-RC" H 5750 4476 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical" H 5700 3450 50  0001 C CNN
-F 3 "https://www.digikey.jp/product-detail/ja/sullins-connector-solutions/PPPC192LFBN-RC/S7122-ND/810258" H 5700 3450 50  0001 C CNN
+F 3 "~" H 5700 3450 50  0001 C CNN
 	1    5700 3450
 	1    0    0    -1  
 $EndComp
@@ -32,7 +32,7 @@ P 8800 3500
 F 0 "CN10" H 8850 4617 50  0000 C CNN
 F 1 "PPPC192LFBN-RC" H 8850 4526 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical" H 8800 3500 50  0001 C CNN
-F 3 "https://www.digikey.jp/product-detail/ja/sullins-connector-solutions/PPPC192LFBN-RC/S7122-ND/810258" H 8800 3500 50  0001 C CNN
+F 3 "~" H 8800 3500 50  0001 C CNN
 	1    8800 3500
 	1    0    0    -1  
 $EndComp
@@ -499,7 +499,7 @@ P 9000 5500
 F 0 "SW1" H 9000 5867 50  0000 C CNN
 F 1 "PEC11R-4220F-S0024" H 9000 5776 50  0000 C CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 8850 5660 50  0001 C CNN
-F 3 "https://www.digikey.jp/products/ja?keywords=PEC11R-4220F-s0024" H 9000 5760 50  0001 C CNN
+F 3 "~" H 9000 5760 50  0001 C CNN
 	1    9000 5500
 	1    0    0    -1  
 $EndComp
@@ -759,15 +759,15 @@ Wire Wire Line
 Wire Wire Line
 	4400 3000 4650 3000
 Wire Wire Line
-	2900 2700 2900 2400
-Wire Wire Line
 	2800 2700 2800 2400
 Wire Wire Line
-	2700 2700 2700 2400
+	2900 2700 2900 2400
 Wire Wire Line
-	2600 2700 2600 2400
+	3000 2700 3000 2400
 Wire Wire Line
-	2500 2700 2500 2400
+	3100 2700 3100 2400
+Wire Wire Line
+	3200 2700 3200 2400
 $Comp
 L power:GND #PWR021
 U 1 1 5CA47D69
@@ -802,55 +802,50 @@ Text Label 4450 2900 0    39   ~ 0
 I2C1_SCL
 Text Label 4450 3000 0    39   ~ 0
 I2C1_SDA
-Text Label 2900 2550 1    39   ~ 0
-SPI2_MISO
 Text Label 2800 2550 1    39   ~ 0
+SPI2_MISO
+Text Label 2900 2550 1    39   ~ 0
 SPI2_SCK
 Wire Wire Line
 	6000 3150 6450 3150
 Text Label 6300 3150 0    39   ~ 0
 nRESET
-Text Label 2700 2550 1    39   ~ 0
+Text Label 3000 2550 1    39   ~ 0
 nRESET
-Text Label 2600 2550 1    39   ~ 0
+Text Label 3100 2550 1    39   ~ 0
 SPI2_MOSI
-Text Label 2500 2550 1    39   ~ 0
+Text Label 3200 2550 1    39   ~ 0
 nLEDCS
 $Comp
 L power:+3.3V #PWR019
 U 1 1 5C97CBA7
-P 2400 2200
-F 0 "#PWR019" H 2400 2050 50  0001 C CNN
-F 1 "+3.3V" H 2415 2373 50  0000 C CNN
-F 2 "" H 2400 2200 50  0001 C CNN
-F 3 "" H 2400 2200 50  0001 C CNN
-	1    2400 2200
+P 3300 2200
+F 0 "#PWR019" H 3300 2050 50  0001 C CNN
+F 1 "+3.3V" H 3315 2373 50  0000 C CNN
+F 2 "" H 3300 2200 50  0001 C CNN
+F 3 "" H 3300 2200 50  0001 C CNN
+	1    3300 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 2200 2400 2700
+	3300 2200 3300 2700
 Wire Wire Line
-	3200 2700 3200 2400
+	2500 2700 2500 2400
 Wire Wire Line
-	3200 2400 3300 2400
+	2500 2400 2600 2400
 Wire Wire Line
-	3300 2400 3300 2700
-Connection ~ 3300 2400
-Wire Wire Line
-	3300 2400 3400 2400
+	2600 2400 2600 2700
 $Comp
 L power:GND #PWR020
 U 1 1 5C98ACA1
-P 3400 2500
-F 0 "#PWR020" H 3400 2250 50  0001 C CNN
-F 1 "GND" H 3405 2327 50  0000 C CNN
-F 2 "" H 3400 2500 50  0001 C CNN
-F 3 "" H 3400 2500 50  0001 C CNN
-	1    3400 2500
+P 2300 2500
+F 0 "#PWR020" H 2300 2250 50  0001 C CNN
+F 1 "GND" H 2305 2327 50  0000 C CNN
+F 2 "" H 2300 2500 50  0001 C CNN
+F 3 "" H 2300 2500 50  0001 C CNN
+	1    2300 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 2400 3400 2500
 Wire Wire Line
 	5500 3550 5150 3550
 Text Label 5150 3550 0    39   ~ 0
@@ -858,23 +853,23 @@ nLEDCS
 NoConn ~ 1200 2900
 NoConn ~ 1200 3000
 Wire Wire Line
-	3100 2700 3100 2400
+	2400 2700 2400 2400
 Wire Wire Line
-	3100 2400 3200 2400
-Connection ~ 3200 2400
+	2400 2400 2500 2400
+Connection ~ 2500 2400
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5C9B14AA
-P 3000 2200
-F 0 "#PWR0101" H 3000 2050 50  0001 C CNN
-F 1 "+3.3V" H 3015 2373 50  0000 C CNN
-F 2 "" H 3000 2200 50  0001 C CNN
-F 3 "" H 3000 2200 50  0001 C CNN
-	1    3000 2200
+P 2700 2200
+F 0 "#PWR0101" H 2700 2050 50  0001 C CNN
+F 1 "+3.3V" H 2715 2373 50  0000 C CNN
+F 2 "" H 2700 2200 50  0001 C CNN
+F 3 "" H 2700 2200 50  0001 C CNN
+	1    2700 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 2200 3000 2700
+	2700 2200 2700 2700
 $Comp
 L power:+3.3V #PWR0102
 U 1 1 5C9BF643
@@ -1094,9 +1089,15 @@ Wire Wire Line
 Wire Wire Line
 	3900 5550 3900 5500
 Connection ~ 4400 5550
+Text Notes 7450 7500 0    50   ~ 0
+Kiritsubo v2
+Text Notes 8250 7650 0    50   ~ 0
+2019/Mar/27
+Text Notes 7050 6950 0    50   ~ 0
+CODEC control test jig "Kiritsubo" v2. \nThis jig can test two type of codec board \nby two audio peripheral and two control protocol. 
 $Comp
 L Display_Modules:SparkFun-7-Segment-Serial-Display-Red LED1
-U 1 1 5C9A2A0C
+U 1 1 5CDA26F4
 P 2800 3700
 F 0 "LED1" H 2800 2930 45  0000 C CNN
 F 1 "SparkFun-7-Segment-Serial-Display-Red" H 2800 2846 45  0000 C CNN
@@ -1106,10 +1107,9 @@ F 4 " COM-11441" H 2800 2850 60  0001 C CNN "Field4"
 	1    2800 3700
 	1    0    0    -1  
 $EndComp
-Text Notes 7450 7500 0    50   ~ 0
-Kiritsubo v2
-Text Notes 8250 7650 0    50   ~ 0
-2019/Mar/27
-Text Notes 7050 6950 0    50   ~ 0
-CODEC control test jig "Kiritsubo" v2. \nThis jig can test two type of codec board \nby two audio peripheral and two control protocol. 
+Wire Wire Line
+	2400 2400 2300 2400
+Wire Wire Line
+	2300 2400 2300 2500
+Connection ~ 2400 2400
 $EndSCHEMATC
