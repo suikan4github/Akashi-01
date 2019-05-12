@@ -1,4 +1,4 @@
-update=2019年03月31日 16時41分05秒
+update=2019年05月12日 21時13分36秒
 version=1
 last_client=kicad
 [general]
@@ -61,7 +61,7 @@ SolderPasteRatio=0
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=docs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
