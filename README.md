@@ -15,7 +15,7 @@ All above are achieved by connecting peripheral port head-to-head ( Serial port 
 - [KiCad 5.1](http://kicad-pcb.org/blog/2019/03/KiCad-5.1.0-Release/)
 - [Nucleo F091RC](https://www.st.com/ja/evaluation-tools/nucleo-f091rc.html)
 - [Nucleo L152RE](https://www.st.com/ja/evaluation-tools/nucleo-l152re.html)
-- [Nucleo F444RE](https://www.st.com/ja/evaluation-tools/nucleo-f446re.html)
+- [Nucleo F446RE](https://www.st.com/ja/evaluation-tools/nucleo-f446re.html)
 
 The schematics [can be donwloaded](docs/Akashi-01.pdf) as PDF format. 
 

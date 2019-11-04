@@ -1,15 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:Akashi-01-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "AKASHI-01"
+Date "2019-11-04"
+Rev "v1.0.2"
 Comp ""
-Comment1 ""
+Comment1 "Test jig for Nucleo 64"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1089,12 +1088,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 5550 3900 5500
 Connection ~ 4400 5550
-Text Notes 7450 7500 0    50   ~ 0
-Kiritsubo v2
-Text Notes 8250 7650 0    50   ~ 0
-2019/Mar/27
-Text Notes 7050 6950 0    50   ~ 0
-CODEC control test jig "Kiritsubo" v2. \nThis jig can test two type of codec board \nby two audio peripheral and two control protocol. 
 $Comp
 L Display_Modules:SparkFun-7-Segment-Serial-Display-Red LED1
 U 1 1 5CDA26F4
