@@ -10,6 +10,18 @@ Record of the modification in project development.
 ### Security
 ### Known Issue
 
+## [1.0.3] - 2019-12-30
+
+### Added
+### Changed
+### Deprecated
+### Removed
+### Fixed
+- [Issue 5 : Make thirdparty library access to internal ](https://github.com/suikan4github/Akashi-01/issues/5)
+
+### Security
+### Known Issue
+
 ## [1.0.2] - 2019-05-12
 
 ### Added
@@ -48,6 +60,7 @@ Initial release.
 ### Fixed
 ### Security
 
-[Unreleased]: https://github.com/suikan4github/Akashi-01/compare/v1.0.2...develop
-[1.0.1]: https://github.com/suikan4github/Akashi-01/compare/v1.0.0...v1.0.1
+[Unreleased]: https://github.com/suikan4github/Akashi-01/compare/v1.0.3...develop
+[1.0.3]: https://github.com/suikan4github/Akashi-01/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/suikan4github/Akashi-01/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/suikan4github/Akashi-01/compare/v1.0.0...v1.0.1
