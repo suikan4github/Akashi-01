@@ -19,6 +19,7 @@ Record of the modification in project development.
 ### Fixed
 - [Issue 5 : Make thirdparty library access to internal ](https://github.com/suikan4github/Akashi-01/issues/5)
 - [Issue 7 : LED1 module SCL/SDA is connected reverse ](https://github.com/suikan4github/Akashi-01/issues/7)
+- [Issue 8 : SW1 mount point hall is too small ](https://github.com/suikan4github/Akashi-01/issues/8)
 
 ### Security
 ### Known Issue
