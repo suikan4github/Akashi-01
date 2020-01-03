@@ -10,7 +10,7 @@ Record of the modification in project development.
 ### Security
 ### Known Issue
 
-## [1.0.3] - 2019-12-30
+## [1.0.3] - 2020-01-04
 
 ### Added
 ### Changed
@@ -18,6 +18,7 @@ Record of the modification in project development.
 ### Removed
 ### Fixed
 - [Issue 5 : Make thirdparty library access to internal ](https://github.com/suikan4github/Akashi-01/issues/5)
+- [Issue 7 : LED1 module SCL/SDA is connected reverse ](https://github.com/suikan4github/Akashi-01/issues/7)
 
 ### Security
 ### Known Issue
