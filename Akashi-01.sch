@@ -797,10 +797,6 @@ Wire Wire Line
 	4400 4300 4600 4300
 Wire Wire Line
 	4600 4300 4600 3900
-Text Label 4450 2900 0    39   ~ 0
-I2C1_SCL
-Text Label 4450 3000 0    39   ~ 0
-I2C1_SDA
 Text Label 2800 2550 1    39   ~ 0
 SPI2_MISO
 Text Label 2900 2550 1    39   ~ 0
@@ -1105,4 +1101,8 @@ Wire Wire Line
 Wire Wire Line
 	2300 2400 2300 2500
 Connection ~ 2400 2400
+Text Label 4450 2900 0    50   ~ 0
+I2C1_SDA
+Text Label 4450 3000 0    50   ~ 0
+I2C1_SCL
 $EndSCHEMATC
