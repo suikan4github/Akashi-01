@@ -1547,7 +1547,7 @@
   (gr_text 1 (at 116.84 60.96) (layer F.SilkS) (tstamp 5C9BD1F1)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Akashi-01 v1.0.2\nA Murasaki JIG for Nucleo 64\n(C) Seiichi Horie 2019\nhttps://github.com/suikan4github/Akashi-01" (at 175.895 60.96) (layer B.SilkS) (tstamp 5C9BD1EE)
+  (gr_text "Akashi-01 v1.0.4\nA Murasaki JIG for Nucleo 64\n(C) Seiichi Horie 2019\nhttps://github.com/suikan4github/Akashi-01" (at 175.895 60.96) (layer B.SilkS) (tstamp 5C9BD1EE)
     (effects (font (size 1.5 1.5) (thickness 0.15)) (justify left mirror))
   )
   (dimension 71.12 (width 0.15) (layer Dwgs.User)
