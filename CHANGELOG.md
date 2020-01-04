@@ -1,6 +1,19 @@
 # Change log
 Record of the modification in project development.
 ## [Unreleased]
+- [Issue 11 : The Silk have to be updated ](https://github.com/suikan4github/Akashi-01/issues/11)
+
+### Added
+### Changed
+### Deprecated
+### Removed
+### Fixed
+
+
+### Security
+### Known Issue
+
+## [1.0.4] - 2020-01-04
 
 ### Added
 ### Changed
@@ -63,7 +76,8 @@ Initial release.
 ### Fixed
 ### Security
 
-[Unreleased]: https://github.com/suikan4github/Akashi-01/compare/v1.0.3...develop
+[Unreleased]: https://github.com/suikan4github/Akashi-01/compare/v1.0.4...develop
+[1.0.4]: https://github.com/suikan4github/Akashi-01/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/suikan4github/Akashi-01/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/suikan4github/Akashi-01/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/suikan4github/Akashi-01/compare/v1.0.0...v1.0.1
